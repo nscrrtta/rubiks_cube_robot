@@ -143,7 +143,7 @@ while running:
     for btn in [solve_btn, scramble_btn, cancel_btn]:
         btn.draw(screen)
 
-    if not solveable: screen.blit(red_x, (480,158))
+    if not solveable: screen.blit(red_x, (480,167))
 
     pygame.display.update()
 
