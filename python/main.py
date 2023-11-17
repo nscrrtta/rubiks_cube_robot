@@ -13,7 +13,7 @@ import os
 
 
 # Load window at the top edge of screen
-os.environ['SDL_VIDEO_WINDOW_POS'] = '0,30'
+os.environ['SDL_VIDEO_WINDOW_POS'] = '0,0'
 
 pygame.init()
 pygame.display.set_caption("Rubik's Cube Robot by Nick Sciarretta")
