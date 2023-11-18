@@ -62,7 +62,7 @@ class Cube:
             7: tuple(self.sqrs[i] for i in [0, 9, 38])  # BRL
         }
     
-    def get_paths  (
+    def get_paths(
         self,
         cubie_type: str, 
         start: int, 
