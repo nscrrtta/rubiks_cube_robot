@@ -1,6 +1,9 @@
 from collections import defaultdict
 
 
+# File path of png files
+png_path = '/home/pi/Rubiks-Cube/png'
+
 # RGB values
 colours_rgb = {
     0: (250, 140,  51), # Orange
