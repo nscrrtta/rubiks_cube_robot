@@ -1,3 +1,4 @@
+from constants import png_path
 import pygame
 
 
@@ -10,8 +11,8 @@ class Button:
         self.width  = 52
         self.height = 52
 
-        self.pressed_png = pygame.image.load(f'png/{png}_white.png')
-        self.not_pressed_png = pygame.image.load(f'png/{png}_grey.png')
+        self.pressed_png = pygame.image.load(f'{png_path}/{png}_white.png')
+        self.not_pressed_png = pygame.image.load(f'{png_path}/{png}_grey.png')
 
         self.pressed = False
 
