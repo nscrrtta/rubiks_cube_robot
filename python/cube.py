@@ -59,7 +59,7 @@ class Cube:
             4: tuple(self.sqrs[i] for i in [51,15,44]), # FLD
             5: tuple(self.sqrs[i] for i in [53,35,42]), # FRD
             6: tuple(self.sqrs[i] for i in [2, 29,36]), # BRD
-            7: tuple(self.sqrs[i] for i in [0, 9, 38])  # BRL
+            7: tuple(self.sqrs[i] for i in [0, 9, 38])  # BLD
         }
     
     def get_paths(
