@@ -6,7 +6,7 @@ import time
 ##########################################################################
 
 # Size of 7" touch screen
-WINDOW_SIZE = (1024, 571)
+WINDOW_SIZE = (1024, 535)
 
 # PNG_PATH = '/home/pi/Rubiks-Cube/png'
 PNG_PATH = '/Users/nicksciarretta/Desktop/rubiks_cube_robot-main/png'
@@ -27,22 +27,22 @@ RGB_VALUES = {
 }
 
 # x,y coordinates
-LEFT_CENTER_XY  = (236, 285) # Center coordinate of three faces on left
-RIGHT_CENTER_XY = (787, 285) # Center coordinate of three faces on right
-SOLVE_BUTTON_XY = (482, 170)
-SCRMB_BUTTON_XY = (482, 257)
-ABORT_BUTTON_XY = (482, 344)
-FRU_PNG_XY      = ( 20,  15)
-LBD_PNG_XY      = (923,  15)
+LEFT_CENTER_XY  = (236, 270) # Center coordinate of three faces on left
+RIGHT_CENTER_XY = (787, 270) # Center coordinate of three faces on right
+SOLVE_BUTTON_XY = (482, 155)
+SCRMB_BUTTON_XY = (482, 242)
+ABORT_BUTTON_XY = (482, 329)
+FRU_PNG_XY      = ( 10,  10)
+LBD_PNG_XY      = (933,  10)
 
 COLOUR_SELECTOR_XY = {
-    5: (417, 35), # Red
-    2: (484, 35), # White
-    3: (551, 35), # Blue
+    5: (417, 15), # Red
+    2: (484, 15), # White
+    3: (551, 15), # Blue
 
-    1: (417, 480), # Green
-    4: (484, 480), # Yellow
-    0: (551, 480), # Orange
+    1: (417, 464), # Green
+    4: (484, 464), # Yellow
+    0: (551, 464), # Orange
 }
 
 ##########################################################################
